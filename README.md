@@ -115,8 +115,8 @@ python scripts/triage_engine.py
 
 - Swap the CSV "source of truth" for a real CMDB or cloud asset inventory API.
 - Add a `--severity` CLI flag to widen/narrow the CVSS filter.
-- Persist findings to a database and diff against the previous run to alert only on *new* CVEs.
-- Replace the local SMTP debug server with a real provider (e.g. SES, SendGrid) behind the same `send_alert()` interface.
+- Persist findings to a database and differentiate against the previous run to alert only on *new* CVEs.
+- Replace the local SMTP debug server with a real provider (e.g. SES, SendGrid) behind the same `send_alert()` interface, so that emails would actually be sent.
 
 ## Disclaimer
 
