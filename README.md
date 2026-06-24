@@ -51,13 +51,14 @@ graph LR
 AutoSec-GRC/
 ├── README.md
 ├── requirements.txt
-├── config.env.example       # template — copy to config.env locally
+├── config.env.example         # template — copy to config.env locally
 ├── .gitignore
-├── asset_inventory.csv      # simulated company asset database
+├── asset_inventory.csv        # simulated company asset database
 ├── uniqueservices_report.csv  # generated output (created on first run)
+├── screenshots                # evidence artifacts from my personal implementation
 └── scripts/
-    ├── sanity_check.py      # pre-flight environment/data check
-    └── triage_engine.py     # main automation engine
+    ├── sanity_check.py        # pre-flight environment/data check
+    └── triage_engine.py       # main automation engine
 ```
 
 ## Getting started
